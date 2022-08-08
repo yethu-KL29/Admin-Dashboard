@@ -23,17 +23,20 @@
 
 
 .header{
-    background-color: rgb(224, 224, 206);
+    background-color: antiquewhite;
     display: grid;
      grid-column: 2/-1;
     grid-row: span 1; 
     padding: 10px;
     grid-template-columns: 2fr 1fr ;
     grid-template-rows: 1fr 2fr;
+    padding: 5px;
+    margin-top: 10px;
     
 }
 .sidebar{
-    background-color: rgb(175, 195, 224);
+    background-color: rgb(192, 228, 216);
+
     display: grid;
     grid-row: 1/-1;
     grid-template-rows: 600px 300px ;
@@ -56,7 +59,7 @@
     grid-template-columns: 3fr 1fr ;
     grid-template-rows: .1fr 4fr;
    
-    padding: 20px;
+    padding: 5px;
 }
 .e1, .eh{
     width: 20vh;
@@ -66,10 +69,7 @@
     gap: 10px;
    
 }
-.profile i{
-  
-   
-}
+
 input{
     width: 40vw;
     height: 3vh;
@@ -96,7 +96,7 @@ img{
     align-items: center;
 }
 .hi img{
-    height: 9vh;
+    height: 11vh;
     width: 7vw;
     display: grid;
     gap: 10px;
@@ -119,13 +119,14 @@ button{
     width: 6vw;
     height: 4vh;
     border-radius: 15px;
-   background-color:  rgb(175, 195, 224);;
+    background-color: rgb(192, 228, 216);;
 }
 .btn{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
+    font-weight: bold;
 }
 span{
     font-size: 30px;
@@ -153,9 +154,11 @@ span{
     display: grid;
     grid-template-rows: 1fr 1fr;
     padding: 10px;
+    gap: 20px;
 }
 .announcements > div {
     padding: 25px;
+    background-color: antiquewhite;
 }
 .about{
     display: grid;
